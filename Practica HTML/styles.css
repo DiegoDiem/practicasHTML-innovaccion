@@ -126,3 +126,10 @@ footer ul{
 footer span{
     font-weight: 900;
 }
+.flex-3{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-3 img{
+    width: 10%;
+}
