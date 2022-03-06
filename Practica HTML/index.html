@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Pasteleria</h1>
+    </header>
+
+    <main>
+        <h2>Bienvenid@ a la pastelería</h2>
+        
+        <div>
+            <h3>Sabores</h3>
+
+            <ul>
+                <li>Chocolate - <b>$150</b></li>
+                <li>Nuez - <b>$180</b></li>
+                <li>Fresa - <b>$100</b></li>
+                <li>ChocoFlan - <b>$130</b></li>
+                <li>Pistache - <b>$350</b></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Adornos</h3>
+            
+            
+            <ul class="card-ul">
+            
+                <li><img  src="https://hipervalles.com/13101-large_default/adornos-de-pastel-estrella-clasica.jpg  " alt="pastel adorno"> <br><span>Estrella - <b>$50</b></span></li>
+                <li><img  src="https://m.media-amazon.com/images/I/51uHgNJC2FS.jpg" alt="pastel adorno"> <br><span>Mariposa - <b>$150</b></span></li>
+                <li><img  src="https://www.dhresource.com/260x260s/f2-albu-g19-M01-51-03-rBVap2GI8USAISWUAAETgt7VTmY322.jpg/cake-decoration-candle-cakes-pick-ornament.jpg" alt="adorno pastel"><br><span>Vela corazón - <b>$30</b></span></li>
+                <li><img  src="https://m.media-amazon.com/images/I/51LHGz3oIyL.jpg" alt="adorno pastel"><br><span>Velas colores - <b>$210</b></span></li>
+            </ul>   
+        </div>
+    </main>
+    <form action="">
+        <h3>Pedido</h3>
+        <legend>Elija sus sabores y adornos de preferencia</legend>
+        <br>
+        <fieldset>
+            <legend>Sabores</legend>
+            <br>
+            <div class="flex">
+                <label for="">Chocolate <input type="checkbox"></label>
+                <label for="">Nuez <input type="checkbox"></label>
+                <label for="">Fresa <input type="checkbox"></label>
+                <label for="">ChocoFlan <input type="checkbox"></label>
+                <label for="">Pistache <input type="checkbox"></label>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Adornos</legend>
+            <br>
+            <div class="flex">
+                <label for="">Estrella <input type="checkbox"></label>
+                <label for="">Mariposa <input type="checkbox"></label>
+                <label for="">Vela corazón <input type="checkbox"></label>
+                <label for="">Velas colores <input type="checkbox"></label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Datos</legend>
+            <div class="flex-2">
+                <label for="">Nombre: </label> <input type="text">
+                <label for="">Teléfono: </label> <input type="tel">
+                <label for="">Email: </label> <input type="email">
+                <label for="">Descripción del pastel:</label>
+                <textarea name="" id="" cols="20" rows="10"></textarea>
+            </div>
+        </fieldset>
+        
+        <input class="enviar" type="submit" value="Confirmar pedido">
+    </form>
+
+    <footer>
+        <p>Dirección: <span>Paseo San Francisco Centro #41, Huixquilucan, Edo. Mex.</span></p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d15496.652341750945!2d-99.2751045539943!3d19.374641960393266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m0!4m3!3m2!1d19.373475199999998!2d-99.2846459!5e0!3m2!1ses-419!2smx!4v1646528006332!5m2!1ses-419!2smx" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <p>Tel: <span>55123123517</span></p>
+        <p>Horarios</p>
+        <ul>
+            <li>Lunes: 10 am - 10 pm</li>
+            <li>Martes: 10 am - 10 pm</li>
+            <li>Miércoles: 10 am - 10 pm</li>
+            <li>Jueves: 10 am - 10 pm</li>
+            <li>Viernes: 10 am - 10 pm</li>
+            <li>Sábado: 10 am - 3 pm</li>
+            <li>Domingos: 10 am - 3 pm</li>
+        </ul>
+    </footer>
+</body>
+</html>

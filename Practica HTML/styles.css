@@ -1,0 +1,128 @@
+
+:root{
+    --bg:#fef6e4;
+    --second:#8bd3dd;
+    --third:#f582ae;
+    --blue:#001858;
+    --main:#f3d2c1;
+}
+body{
+    text-align: center;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+    color: #001858;
+}
+
+main{
+    
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow:  20px 20px 60px #d8d1c2,
+             -20px -20px 60px #ffffff;
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+.card-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+
+form{
+    
+    border-style: solid;
+    
+    border-width: 2px;
+    border-color: var(--third);
+    width: 60%;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+form .flex-2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+input, textarea{
+    background-color: var(--bg);
+}
+
+.enviar {
+    margin: 20px 0; 
+	box-shadow:inset 0px 1px 0px 0px #efdcfb;
+	background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+	background-color:#dfbdfa;
+	border-radius:6px;
+	border:1px solid #c584f3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9752cc;
+}
+.enviar:hover {
+	background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+	background-color:#bc80ea;
+}
+.enviar:active {
+	position:relative;
+	top:1px;
+}
+
+/* From cssbuttons.io by @Sujitkavaiya */
+.card-pastelero {
+    width: 190px;
+    height: 254px;
+    background: rgb(255, 255, 255);
+    border-radius: 0.4em;
+    box-shadow: 0.3em 0.3em 0.7em #00000015;
+    transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: rgb(250, 250, 250) 0.2em solid;
+   }
+   
+   .card-pastelero:hover {
+    border: #006fff 0.2em solid;
+   }
+.card-pastelero img{
+    width: 100%;
+}
+.mt-2{
+    margin-top: 100px;
+}
+table{
+    margin: 100px auto;
+    width: 50%;
+}
+
+footer{
+    background-color: var(--second);
+}
+footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+footer span{
+    font-weight: 900;
+}
